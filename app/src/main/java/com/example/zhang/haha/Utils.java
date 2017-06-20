@@ -5,11 +5,11 @@ package com.example.zhang.haha;
  */
 
 public class Utils {
-    String haha;
+    private static String haha;
     public Utils(String haha){
         this.haha = haha;
     }
-    public void get(){
-
+    public static String  get(){
+        return haha;
     }
 }
